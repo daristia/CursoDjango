@@ -1,0 +1,18 @@
+{% extends 'core/base.html' %}
+
+{% block content %}
+
+<p>Mi nombre es Daniel y estoy intentando aprender Django.</p>
+
+{% endblock %}
+
+{% block title %}
+Acerca de
+{% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/about-bg.jpg' %}{% endblock %}
+
+{% block headers %}
+<h1>Acerca de</h1>
+<span class="subheading">Sobre mi.</span>
+{% endblock %}
